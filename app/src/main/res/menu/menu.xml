@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/allAccount"
+        android:title="Todos"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/orderVisit"
+        android:title="Visitados"
+        />
+
+    <item android:id="@+id/ordernoVisit"
+        android:title="NoVisitados"
+        />
+    <item android:id="@+id/ordernombre"
+        android:title="Nombre"
+        />
+    <item android:id="@+id/ordercodigo"
+        android:title="Codigo"
+        />
+
+</menu>
